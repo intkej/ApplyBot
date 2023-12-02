@@ -1,5 +1,9 @@
 # ApplyBot for Discord
 
+# TO DO
+
+- Use slash commands instead of 'content.startsWith'
+
 # MIT License
 
 Copyright (c) 2023 notnipa
