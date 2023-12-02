@@ -1,4 +1,4 @@
-ApplyBot for Discord
+# ApplyBot for Discord
 
 # MIT License
 
