@@ -1,5 +1,4 @@
-# ApplyBot for Discord
-
+# ApplyBot
 # TO DO
 
 - Use slash commands instead of 'content.startsWith'
