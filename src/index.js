@@ -27,7 +27,7 @@ client.on("messageCreate", async message => {
         const firstMention = message.content.match(/<@!?(\d+)>/);
         if (firstMention) {
           const user = await client.users.fetch(firstMention[1]);
-          user.send(MessageToAuthor);
+          user.send(process.env.MESSAGE_TO_AUTHOR);
         }
       } catch (error) {
         console.log(error);
@@ -59,7 +59,7 @@ client.on("messageCreate", async message => {
         const messages = await applySendToChannel.messages.fetch();
         const application = messages.find(m => m.content.includes(`koodilla ${code}`));
         if (!application) {
-                await message.reply(NoApplication);
+                await message.reply(process.env.NO_APPLICATION);
           return;
         }
         const userMention = application.content.match(/<@!?(\d+)>/)[0];
