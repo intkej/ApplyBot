@@ -25,6 +25,6 @@ Add your Discord bot token to the .env file:
 
 1. Start the bot:
 
-       node bot.js
+       node src/index.js
    
 Invite the bot to your server using the OAuth2 URL from the Discord Developer Portal.
