@@ -15,7 +15,7 @@ Install dependencies:
 
 # Configuration
 
-Create a .env file in the root directory.
+1. Create a .env file in the root directory.
 
 Add your Discord bot token to the .env file:
 
@@ -23,8 +23,8 @@ Add your Discord bot token to the .env file:
 
 # Running the Bot
 
-1. Start the bot:
+Start the bot:
 
-       node src/index.js
+    node src/index.js
   
 Invite the bot to your server using the OAuth2 URL from the Discord Developer Portal.
